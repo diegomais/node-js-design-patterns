@@ -1,3 +1,5 @@
+var localStorage = require("./localStorage");
+
 console.log("localStorage length: ", localStorage.length);
 
 var uid = localStorage.getItem("user_id");
@@ -10,6 +12,6 @@ if (!uid) {
   localStorage.setItem("user_id", "12345");
 } else {
   console.log("User ID found.", uid);
-  console.log("clearning the User ID...");
+  console.log("clearing the User ID...");
   localStorage.clear();
 }
