@@ -1,6 +1,4 @@
-var Logger = require("./Logger");
-
-var logger = new Logger().getInstance();
+var logger = require("./Logger");
 
 class Shopper {
   constructor(name, money = 0) {
