@@ -1,0 +1,29 @@
+{
+  "floor": [
+    { "name": "ski googles", "qty": 5 },
+    { "name": "ski hats", "qty": 15 },
+    { "name": "all mountain skis", "qty": 2 },
+    { "name": "ski boots", "qty": 2 }
+  ],
+  "backroom": [
+    { "name": "ski googles", "qty": 5 },
+    { "name": "ski hats", "qty": 15 },
+    { "name": "ski poles", "qty": 2 },
+    { "name": "ski rack", "qty": 1 }
+  ],
+  "localStore": [
+    { "name": "ski boots", "qty": 2 },
+    { "name": "ski poles", "qty": 4 },
+    { "name": "wax", "qty": 8 }
+  ],
+  "warehouse": [
+    { "name": "ski googles", "qty": 100 },
+    { "name": "ski hats", "qty": 100 },
+    { "name": "all mountain skis", "qty": 10 },
+    { "name": "ski boots", "qty": 20 },
+    { "name": "ski poles", "qty": 20 },
+    { "name": "wax", "qty": 100 },
+    { "name": "powder skis", "qty": 10 },
+    { "name": "ski rack", "qty": 3 }
+  ]
+}
