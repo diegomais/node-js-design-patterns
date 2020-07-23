@@ -7,6 +7,7 @@ The following is a set of guidelines for contributing to this project and its pa
 ## To do
 
 - [ ] **Create a Monorepo with Yarn Workspaces**: In this project we have different domains in each Design Pattern and using a monorepo with Yarn Workspaces we could separate each Design Pattern into different modules.
+- [ ] **Add problem solve and not just pattern**: Design Pattern is a solution that help to resolve one or more problems. It will be interesting to shown for each implementation what problem is solved. For example state machine for product where state depends on some conditions.
 
 ## Styleguides
 
