@@ -66,9 +66,7 @@ Download or clone the repository. Each folder has a working example of a pattern
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Please check out the [How to contribute guide](CONTRIBUTING.md) for guidelines about how to proceed.
 
 ## License
 
@@ -76,4 +74,4 @@ This project is under MIT license. See the [LICENSE](LICENSE) file for more deta
 
 ---
 
-Made with 💜 by [Diego Mais](https://diegomais.github.io) :wave:
+Made with :blue_heart: by [Diego Mais](https://diegomais.github.io) :wave:
