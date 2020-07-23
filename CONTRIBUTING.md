@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to this project and its pa
 
 - [ ] **Create a Monorepo with Yarn Workspaces**: In this project we have different domains in each Design Pattern and using a monorepo with Yarn Workspaces we could separate each Design Pattern into different modules.
 - [ ] **Add problem solve and not just pattern**: Design Pattern is a solution that help to resolve one or more problems. It will be interesting to shown for each implementation what problem is solved. For example state machine for product where state depends on some conditions.
-- [ ] **Implement tests**: Testing is necessary because we all make mistakes. Some of those mistakes are unimportant, but some of them are expensive or dangerous. We need to check everything and anything we produce because things can always go wrong – *humans make mistakes all the time*.
+- [ ] **Implement tests**: Testing is necessary because we all make mistakes. Some of those mistakes are unimportant, but some of them are expensive or dangerous. We need to check everything and anything we produce because things can always go wrong – _humans make mistakes all the time_.
 - [ ] **Implement continuous integration**: Establish a consistent and automated way to build, package, and test application and its modules.
 
 ## Styleguides
@@ -69,10 +69,10 @@ All JavaScript must adhere to [Airbnb JavaScript Style Guide() {](https://github
 ```javascript
 describe 'a dog', ->
  it 'barks', ->
- # spec here
+ # test here
  describe 'when the dog is happy', ->
   it 'wags its tail', ->
-  # spec here
+  # test here
 ```
 
 #### Where to put test files
@@ -82,25 +82,25 @@ Unit tests run against specific lines of code. So it makes sense to place them r
 ```
 |- /main
 | |- index.js
-| |- index.test.js
+| |- index.spec.js
 ```
 
-Integration tests run against many lines of code in many files. There is no single place that would make sense, so it’s best to have them in a /tests directory.
+Integration tests run against many lines of code in many files. There is no single place that would make sense, so it’s best to have them in a `/__tests__` directory.
 
 ```
 |- /main
+|- /__tests__
+| |- /int
+| | |- api.int.spec.js
 | |- index.js
 |- /supporting
 | |- fetch.js
-|- /tests
-| |- /int
-| | |- api.int.test.js
 ```
 
 #### How to name test files
 
-Naming every level of test `\*.test.js` doesn’t make much sense. So include the type of test right in the name of the file.
-Example: `index.unit.test.js` and `api.int.test.js`
+Naming every level of test `\*.spec.js` doesn’t make much sense. So include the type of test right in the name of the file.
+Example: `index.unit.spec.js` and `api.int.spec.js`
 
 ---
 
