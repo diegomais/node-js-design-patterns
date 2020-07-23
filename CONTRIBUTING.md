@@ -8,6 +8,8 @@ The following is a set of guidelines for contributing to this project and its pa
 
 - [ ] **Create a Monorepo with Yarn Workspaces**: In this project we have different domains in each Design Pattern and using a monorepo with Yarn Workspaces we could separate each Design Pattern into different modules.
 - [ ] **Add problem solve and not just pattern**: Design Pattern is a solution that help to resolve one or more problems. It will be interesting to shown for each implementation what problem is solved. For example state machine for product where state depends on some conditions.
+- [ ] **Implement tests**: Testing is necessary because we all make mistakes. Some of those mistakes are unimportant, but some of them are expensive or dangerous. We need to check everything and anything we produce because things can always go wrong – *humans make mistakes all the time*.
+- [ ] **Implement continuous integration**: Establish a consistent and automated way to build, package, and test application and its modules.
 
 ## Styleguides
 
@@ -99,3 +101,7 @@ Integration tests run against many lines of code in many files. There is no sing
 
 Naming every level of test `\*.test.js` doesn’t make much sense. So include the type of test right in the name of the file.
 Example: `index.unit.test.js` and `api.int.test.js`
+
+---
+
+Made with :blue_heart: by [Diego Mais](https://diegomais.github.io) :wave:
