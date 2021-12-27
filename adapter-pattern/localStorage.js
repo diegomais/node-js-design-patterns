@@ -11,7 +11,7 @@ class LocalStorage {
     }
   }
 
-  get length() {
+  getLength() {
     return Object.keys(this.items).length;
   }
 
